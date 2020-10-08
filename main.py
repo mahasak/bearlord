@@ -5,8 +5,6 @@ from dotenv import load_dotenv
 
 load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')
-
-print(TOKEN)
 bot = commands.Bot(command_prefix='?>')
 
 @bot.event
