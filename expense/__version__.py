@@ -1,0 +1,7 @@
+__version__ = "0.0.1"
+__name__ = "expense-tracker"
+__description__ = "Python API Wrapper for the Airtable API"
+__author__ = "Max Pijittum"
+__authoremail__ = "maahsak@gmail.com"
+__license__ = "The MIT License (MIT)"
+__copyright__ = "Copyright 2020 Max Pijittum"

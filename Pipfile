@@ -9,6 +9,13 @@ verify_ssl = true
 "discord.py" = "*"
 pylint = "*"
 python-dotenv = "*"
+airtable-python-wrapper = "*"
+pytest = "*"
+pytest-cov = "*"
+coveralls = "*"
+requests-mock = "*"
+mock = "*"
+autopep8 = "*"
 
 [requires]
 python_version = "3.8"
