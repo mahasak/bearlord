@@ -1,1 +1,1 @@
-from .expense import ExpenseTracker # noqa
+from .expense import ExpenseTracker  # noqa
