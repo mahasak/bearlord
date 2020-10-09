@@ -2,7 +2,7 @@
 
 ## How to build discord docker bot
 ```
-$ docker build  --build-arg DISCORD_ARG=<discord-token> -t <image-name> .   
+$ docker build  --build-arg DISCORD_ARG=<discord-token> --build-arg AIRTABLE_KEY_ARG=<airtable-key> --build-arg AIRTABLE_BASE_ARG=<airtable-base> -t <image-name> .   
 ```
 
 ## How to run discord bot docker
