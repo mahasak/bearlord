@@ -21,7 +21,11 @@ async def on_message(message) :
       await message.channel.send('Pong ~ Meow ><')
 
     if message.content.startswith('?>expense') :
-      result_message = tracker.expense_add(message.content)
+      result_message = tracker.add("EXPENSE", message.content)
+      await message.channel.send(result_message)
+    
+    if message.content.startswith('?>income') :
+      result_message = tracker.add("INCOME", message.content)
       await message.channel.send(result_message)
 
 bot.run(DISCORD_TOKEN)

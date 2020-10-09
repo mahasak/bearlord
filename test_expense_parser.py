@@ -3,7 +3,7 @@ import pytest
 from expense import ExpenseTracker
 
 
-class TestExpenseTracker(object):
+class TestExpenseParser(object):
     def test_parse_amount_only(self):
         test_payload = "?>expense 20"
         tracker = ExpenseTracker()
